@@ -1,0 +1,23 @@
+set -gx POLYGON_RPC "https://polygon-rpc.com/"
+#set -gx BSC_RPC "https://bsc-mainnet.gateway.pokt.network/v1/lb/612d4f6cdc57c5003653b5a7"
+set -gx BSC_RPC "https://bsc-dataseed.binance.org/"
+set -gx XDAI_RPC "https://poa-xdai.gateway.pokt.network/v1/lb/612d4f7cdc57c5003653b62a"
+#set -gx XDAI_RPC "https://xdai.poa.network/"
+set -gx FANTOM_RPC "https://rpc.ftm.tools/"
+#set -gx ARBITRUM_RPC "https://arb1.arbitrum.io/rpc"
+set -gx ARBITRUM_RPC "https://arb-mainnet.g.alchemy.com/v2/vwx4mOjgIk89reqiIGx3u-FQEwRMIHL5"
+#set -gx AVAX_RPC "https://api.avax.network/ext/bc/C/rpc"
+set -gx AVAX_RPC "https://speedy-nodes-nyc.moralis.io/b66a8d3203670794651ffc5b/avalanche/mainnet"
+set -gx MOON_RIVER_RPC "https://rpc.moonriver.moonbeam.network"
+set -gx OPTIMISM_RPC "https://opt-mainnet.g.alchemy.com/v2/vwx4mOjgIk89reqiIGx3u-FQEwRMIHL5"
+
+
+# RPC - Testnet
+#set -gx ROPSTEN_RPC "https://eth-ropsten.gateway.pokt.network/v1/lb/612d5465dc57c5003653c1e3"
+#set -gx RINKEBY_RPC "https://eth-rinkeby.gateway.pokt.network/v1/lb/612d4f9adc57c5003653b6fd"
+#set -gx GOERLI_RPC "https://eth-goerli.gateway.pokt.network/v1/lb/612d4fcadc57c5003653b7dd"
+#set -gx KOVAN_RPC "https://kovan.infura.io/v3/c7fe4abb5bbc466cb56038efbb0b9930"
+set -gx ARBITRUM_RINKEBY_RPC "https://arbitrum-rinkeby.infura.io/v3/c7fe4abb5bbc466cb56038efbb0b9930"
+set -gx OPTIMISM_KOVAN_RPC "https://optimism-kovan.infura.io/v3/c7fe4abb5bbc466cb56038efbb0b9930"
+set -gx MUMBAI_RPC "https://rpc-mumbai.maticvigil.com/v1/e4dadaac060844094a667194c20f79cc9bb0bc59"
+set -gx BSC_TESTNET_RPC "https://data-seed-prebsc-1-s2.binance.org:8545"
