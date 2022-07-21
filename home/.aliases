@@ -1,0 +1,5 @@
+alias wksp='cd ~/Workspace'
+alias hh='npx hardhat'
+alias ls='exa --icons --long --git'
+alias cat='bat'
+alias vim='nvim'
