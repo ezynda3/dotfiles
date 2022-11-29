@@ -26,7 +26,7 @@ local config = {
   },
 
   -- Set colorscheme to use
-  colorscheme = "catppuccin",
+  colorscheme = "catppuccin-mocha",
 
   -- Add highlight groups in any theme
   highlights = {
@@ -223,14 +223,13 @@ local config = {
       --     require("lsp_signature").setup()
       --   end,
       -- },
-      { "evanleck/vim-svelte" },
       {
         "catppuccin/nvim",
         as = "catppuccin",
         config = function()
           vim.g.catppuccin_flavour = "macchiato" -- latte, frappe, macchiato, mocha
           require("catppuccin").setup()
-          vim.api.nvim_command("colorscheme catppuccin")
+          -- vim.api.nvim_command("colorscheme catppuccin")
         end,
       },
     },
@@ -265,7 +264,7 @@ local config = {
     },
     -- use mason-lspconfig to configure LSP installations
     ["mason-lspconfig"] = { -- overrides `require("mason-lspconfig").setup(...)`
-      ensure_installed = { "sumneko_lua" },
+      ensure_installed = { "sumneko_lua", "svelte", "gopls" },
     },
     -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources
     ["mason-null-ls"] = { -- overrides `require("mason-null-ls").setup(...)`
